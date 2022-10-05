@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .column {
+            flex: 50%;
+            padding: 10px;
+            height: 300px;
+        }
+    </style>
+    <title>Mondray Acio Lab 1</title>
+    <link rel="icon" href="photos/Photo1.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body
+    style=" margin: 0; padding: 0; font-family: 'Poppins', sans-serif; color-scheme: #D4D4D4, #F2A910, #212121, #70602C;">
+    <section class="header">
+        <style>
+            .header {
+                min-height: 100vh;
+                width: 100%;
+                background-image: url(photos/Artboard\ 2.png);
+                background-position: fill;
+                background-size: cover;
+                position: relative;
+            }
+
+            nav {
+                block-size: 5px;
+                display: flex;
+                padding: 2% 6%;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            nav img {
+                width: 150px;
+            }
+        </style>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <style>
+                    .nav-links {
+                        flex: 1;
+                        text-align: right;
+                    }
+
+                    .nav-links ul li {
+                        list-style: none;
+                        display: inline-block;
+                        padding: 8px 12px;
+                        position: relative;
+                    }
+
+                    .nav-links ul li a {
+                        color: whitesmoke;
+                        text-decoration: none;
+                        font-size: 17px;
+                    }
+
+                    .nav-links ul li::after {
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        background: #D4D4D4;
+                        display: block;
+                        margin: auto;
+                        transition: 0.5s;
+                    }
+
+                    .nav-links ul li:hover::after {
+                        width: 100%;
+                    }
+                </style>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="about">
+            <center>
+                <h2>About Me</h2>
+                <div class="row">
+                    <div class="about-col">
+                    </div>
+                </div>
+
+                <table style="padding-left: 350px; padding-right: 350px;">
+                    <tr>
+                        <td align="left">
+                            <p style="flex: 50%; padding: 10px; font-size: large; color:#D4D4D4;">Hello, I'm<br><br>
+                                <b style="color:#F2A910;">Mondray S. Acio</b> and I are in the second year of my college
+                                life, I work as a freelance Graphic
+                                designer with
+                                a lot of interest in both art and technical stuff, I do love creating Designs, Posters,
+                                Videos, and
+                                other digital art-related, but I also do want to learn UX Design and Computer
+                                programming. In the
+                                future, I hope to be more skilled and reach beyond my dreams.<br><br>
+                            <blockquote style="color: white;">"Do want you want to do but take time and appreciate the
+                                things around you and when
+                                things get
+                                harder be strong your goal is near."</blockquote>
+                            </br></p>
+                        </td>
+                        <td align="center"><img src="photos/Photo1.png" style="width:300px; height:300px;"></td>
+                    </tr>
+                </table>
+            </center>
+
+        </section>
+
+    </section>
+
+</body>
+
+</html>
